@@ -41,7 +41,7 @@
 
                 .nav-link {
                     transition: var(--transition);
-                    color: var(--whiteColor);
+                    color: var(--primaryColor);
                     position: relative;
                     cursor: pointer;
                     padding: 0;
@@ -132,13 +132,13 @@
 }
 
 .navbar-brand img {
-    filter: brightness(5000%);
+    filter: brightness(100%);
     transition: var(--transition);
 
 }
 
 .sticky .navbar-brand img {
-    filter: brightness(00%);
+    filter: brightness(100%);
     content: url("../../../assets/images/frlong.png");
 }
 

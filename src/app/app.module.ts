@@ -22,6 +22,16 @@ import { NgxScrollTopModule } from 'ngx-scrolltop';
 import { CountUpDirective } from './directives/count-up.directive';
 import { PartnerComponent } from './common/partner/partner.component';
 import { SaBannerComponent } from './pages/cyber-security-agency-demo/sa-banner/sa-banner.component';
+import { MarketingAgencyDemoComponent } from './pages/marketing-agency-demo/marketing-agency-demo.component';
+import { MaProjectsComponent } from './pages/marketing-agency-demo/ma-projects/ma-projects.component';
+import { MaServicesComponent } from './pages/marketing-agency-demo/ma-services/ma-services.component';
+import { MaFeedbackComponent } from './pages/marketing-agency-demo/ma-feedback/ma-feedback.component';
+import { MaFunfactsComponent } from './pages/marketing-agency-demo/ma-funfacts/ma-funfacts.component';
+import { MaCtaComponent } from './pages/marketing-agency-demo/ma-cta/ma-cta.component';
+import { MaBlogComponent } from './pages/marketing-agency-demo/ma-blog/ma-blog.component';
+import { MaBannerComponent } from './pages/marketing-agency-demo/ma-banner/ma-banner.component';
+import { MaAboutComponent } from './pages/marketing-agency-demo/ma-about/ma-about.component';
+import { MaContactComponent } from './pages/marketing-agency-demo/ma-contact/ma-contact.component';
 
 
 @NgModule({
@@ -45,7 +55,13 @@ import { SaBannerComponent } from './pages/cyber-security-agency-demo/sa-banner/
     FooterComponent,
     CountUpDirective,
     PartnerComponent,
-    SaBannerComponent
+    SaBannerComponent,
+    MarketingAgencyDemoComponent,
+    MaProjectsComponent, MaServicesComponent, MaFeedbackComponent, MaFunfactsComponent,
+    MaCtaComponent, MaCtaComponent,
+    MaBlogComponent,
+    MaBannerComponent,
+    MaAboutComponent, MaContactComponent
 
   ],
   imports: [

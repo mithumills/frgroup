@@ -8,8 +8,5 @@ import { ThemeService } from './services/theme/theme.service';
 })
 export class AppComponent {
   title = 'F&R Logistics';
-  constructor(private themeService: ThemeService) { }
-  toggleTheme() {
-    this.themeService.toggleTheme();
-  }
+
 }

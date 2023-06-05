@@ -12,7 +12,7 @@ export class NavbarComponent implements OnInit {
 
     constructor(
         public router: Router,
-        private viewportScroller: ViewportScroller, private themeService: ThemeService
+        private viewportScroller: ViewportScroller
     ) { }
 
     public onClick(elementId: string): void {
@@ -39,8 +39,5 @@ export class NavbarComponent implements OnInit {
     }
 
 
-    toggleTheme() {
-        this.themeService.toggleTheme();
-    }
 
 }

@@ -1,6 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 import { Router } from '@angular/router';
+import { ThemeService } from 'src/app/services/theme/theme.service';
 
 @Component({
     selector: 'app-navbar',
@@ -11,14 +12,14 @@ export class NavbarComponent implements OnInit {
 
     constructor(
         public router: Router,
-        private viewportScroller: ViewportScroller
+        private viewportScroller: ViewportScroller, private themeService: ThemeService
     ) { }
 
-    public onClick(elementId: string): void { 
+    public onClick(elementId: string): void {
         this.viewportScroller.scrollToAnchor(elementId);
     }
 
-    ngOnInit(): void {}
+    ngOnInit(): void { }
 
     classApplied = false;
     toggleClass() {
@@ -35,6 +36,11 @@ export class NavbarComponent implements OnInit {
         } else {
             this.isSticky = false;
         }
+    }
+
+
+    toggleTheme() {
+        this.themeService.toggleTheme();
     }
 
 }

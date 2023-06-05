@@ -4,11 +4,11 @@
     <div class="container">
         <a class="navbar-brand" routerLink="/"
             [ngClass]="{'d-none': router.url === '/creative-agency' || router.url === '/it-agency' || router.url === '/studio-agency' || router.url === '/saas-startup' || router.url === '/cyber-security-agency'}">
-            <img src="assets/images/FR.png" alt="logo">
+            <img src="assets/icons/FR_logo.svg" alt="logo">
         </a>
         <a class="navbar-brand d-none" routerLink="/"
             [ngClass]="{'d-inline-block': router.url === '/creative-agency' || router.url === '/it-agency' || router.url === '/studio-agency' || router.url === '/saas-startup' || router.url === '/cyber-security-agency'}">
-            <img src="assets/images/logo-white.png" alt="white-logo">
+            <img src="assets/images/fry.png" alt="white-logo">
         </a>
         <button class="navbar-toggler" type="button" (click)="toggleClass()">
             <span class="burger-menu">
@@ -47,5 +47,9 @@
                 </button>
             </div>
         </div>
+        <!-- <div class="toggle-container">
+            <input type="checkbox" id="themeToggle" (change)="toggleTheme()">
+            <label for="themeToggle">Toggle Theme</label>
+        </div> -->
     </div>
 </nav>

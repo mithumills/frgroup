@@ -6,14 +6,14 @@ import { MarketingAgencyDemoComponent } from './pages/marketing-agency-demo/mark
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'xyz',
     component: LandingPageComponent,
 
   }, {
     path: 'dark',
     component: AlternateLandingComponent,
   }, {
-    path: 'light',
+    path: '',
     component: MarketingAgencyDemoComponent,
   },
 ];

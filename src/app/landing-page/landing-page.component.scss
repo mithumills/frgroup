@@ -3,7 +3,7 @@ section {
 }
 
 .single-services {
-  background-color: #ffe497;
+  background-color: #FFE497;
   -webkit-box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
   -moz-box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
   box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
@@ -215,8 +215,14 @@ section {
   overflow: hidden;
 
   /* fallback colour. Make sure this is just one solid colour. */
+}
 
+.single-logos {
+  padding: 0 30px;
+  filter: brightness(70%);
+  overflow: hidden;
 
+  /* fallback colour. Make sure this is just one solid colour. */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

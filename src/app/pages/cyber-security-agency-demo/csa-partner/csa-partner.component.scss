@@ -1,0 +1,15 @@
+.partner-item {
+    text-align: center;
+
+    img {
+        width: auto !important;
+        display: inline-block !important;
+        filter: sepia(13%) saturate(0%) hue-rotate(130deg) brightness(95%) contrast(80%);
+        transition: .2s;
+    }
+
+    img:hover {
+        filter: none;
+        transform: scale(1.05);
+    }
+}

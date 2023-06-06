@@ -203,7 +203,7 @@ p {
 .default-btn {
     background-color: var(--primaryColor);
     transition: var(--transition);
-    color: var(--whiteColor);
+    color: var(--blackColor);
     display: inline-block;
     padding: 12px 30px;
     border-radius: 5px;
@@ -245,7 +245,7 @@ p {
     background-color: var(--primaryColor);
     transition: var(--transition);
     padding: 12px 45px 12px 30px;
-    color: var(--whiteColor);
+    color: var(--blackColor);
     display: inline-block;
     border-radius: 5px;
     position: relative;

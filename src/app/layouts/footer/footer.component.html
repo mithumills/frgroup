@@ -3,13 +3,16 @@
     [ngClass]="{'bg-black': router.url === '/creative-agency' || router.url === '/freelancer-portfolio' || router.url === '/saas-startup' || router.url === '/cyber-security-agency'}"
     [ngClass]="{'d-none': router.url === '/marketing-agency' || router.url === '/personal-portfolio'}">
     <div class="container">
+
         <div class="row justify-content-center">
-            <div class="col-lg-3 col-sm-6">
+            <h2>We take care of your freight requirements whilst you continue to grow!</h2>
+
+            <div class="col-lg-6 col-sm-6" style="padding: 50px;">
                 <div class="single-footer-widget">
                     <div class="logo"
                         [ngClass]="{'d-none': router.url === '/creative-agency' || router.url === '/freelancer-portfolio' || router.url === '/saas-startup' || router.url === '/cyber-security-agency'}">
                         <a routerLink="/">
-                            <img src="assets/images/logo.png" alt="logo">
+                            <img src="assets/images/yellolong.png" alt="logo">
                         </a>
                     </div>
                     <div class="logo d-none"
@@ -18,39 +21,28 @@
                             <img src="assets/images/logo-white.png" alt="white-logo">
                         </a>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <ul class="social-links">
                         <li>
-                            <a href="https://www.linkedin.com/" target="_blank">
+                            <a href="https://www.linkedin.com/company/f-r-logistics1" target="_blank">
                                 <i class="fa-brands fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/" target="_blank">
-                                <i class="fa-brands fa-twitter"></i>
+                            <a href="mailto:james@frgroup.com.au" target="_blank">
+                                <i class="fa-solid fas far fa-envelope"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/" target="_blank">
-                                <i class="fa-brands fa-facebook-f"></i>
+                            <a href="tel:0391334061" target="_blank">
+                                <i class="fa-solid fa-phone"></i>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://www.instagram.com/" target="_blank">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://dribbble.com/" target="_blank">
-                                <i class="fa-brands fa-dribbble"></i>
-                            </a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-6">
-                <div class="single-footer-widget pl-4">
+            <div class="col-lg-3 col-sm-6 ">
+                <div class="single-footer-widget ">
                     <h3>Explore</h3>
                     <ul class="list">
                         <li>
@@ -62,16 +54,14 @@
                         <li>
                             <span (click)="onClick('services')">Services</span>
                         </li>
+
                         <li>
-                            <span (click)="onClick('portfolio')">Portfolio</span>
-                        </li>
-                        <li>
-                            <span (click)="onClick('team')">Team</span>
+                            <span (click)="onClick('partners')">Carriers</span>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-6">
+            <!-- <div class="col-lg-3 col-sm-6 col-6">
                 <div class="single-footer-widget">
                     <h3>Quick Links</h3>
                     <ul class="list">
@@ -92,27 +82,24 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
             <div class="col-lg-3 col-sm-6">
                 <div class="single-footer-widget">
                     <h3>Get in Touch</h3>
                     <ul class="get-in-touch">
                         <li>
                             <span>Location:</span>
-                            2750 Quadra Street Victoria, Canada.
+                            <a href="#"> Clayton, Victoria</a>
                         </li>
                         <li>
                             <span>Phone:</span>
-                            <a href="tel:+324-9442-515">+324-9442-515</a>
+                            <a href="tel:0391334061">0391334061</a>
                         </li>
                         <li>
                             <span>Email:</span>
-                            <a href="mailto:hello@luaz.com">hello@luaz.com</a>
+                            <a href="mailto:james@frgroup.com.au">james@frgroup.com.au</a>
                         </li>
-                        <li>
-                            <span>Fax:</span>
-                            <a href="tel:+324-9442-515">+324-9442-515</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -120,47 +107,17 @@
     </div>
     <div class="copyright-area">
         <div class="container">
-            <p>© </p>
+            <p>F & R Logistics Pty Ltd ACN 659 678 145 is not a common carrier. All services and quotations are provided
+                subject to our standard conditions of carriage that are available <a
+                    href="..\..\assets\docs\Conditions of Carriage (F & R Logistics).pdf" target="_blank"
+                    style="color: #bbb">here</a> and are also available on request
+                from our office. If you are operating a business, these conditions provide that the goods will be at
+                your sole risk and our services are priced on this basis and that we will not be liable for any loss of
+                or damage to the goods or any other losses you suffer, regardless of the cause of such loss or damage.
+                You should arrange your own insurance cover over the goods. Quotations are valid for 14 days from the
+                date of issue unless otherwise stated in the quotation. Final charges for a consignment are subject to
+                actual dimensions and weight.</p>
+            <p>© F&R Logistics Pty Ltd</p>
         </div>
-    </div>
-</footer>
-
-<!-- Footer Only for Marketing Agency -->
-<footer class="marketing-agency-footer d-none" [ngClass]="{'d-block': router.url === '/marketing-agency'}">
-    <div class="container">
-        <p>© </p>
-    </div>
-</footer>
-
-<!-- Footer Only for Personal Portfolio -->
-<footer class="personal-portfolio-footer d-none" [ngClass]="{'d-block': router.url === '/personal-portfolio'}">
-    <div class="container">
-        <ul class="social-links">
-            <li>
-                <a href="https://www.linkedin.com/" target="_blank">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/" target="_blank">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/" target="_blank">
-                    <i class="fa-brands fa-facebook-f"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://dribbble.com/" target="_blank">
-                    <i class="fa-brands fa-dribbble"></i>
-                </a>
-            </li>
-        </ul>
     </div>
 </footer>

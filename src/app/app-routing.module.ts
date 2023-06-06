@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { AlternateLandingComponent } from './pages/cyber-security-agency-demo/cyber-security-agency-demo.component';
-import { MarketingAgencyDemoComponent } from './pages/marketing-agency-demo/marketing-agency-demo.component';
+import { NotFoundComponent } from './common/not-found/not-found.component';
 
 const routes: Routes = [
   {
@@ -10,12 +10,13 @@ const routes: Routes = [
     component: LandingPageComponent,
 
   }, {
-    path: 'dark',
-    component: AlternateLandingComponent,
-  }, {
     path: '',
-    component: MarketingAgencyDemoComponent,
+    component: AlternateLandingComponent,
   },
+  {
+    path: '**',
+    component: NotFoundComponent,
+  }
 ];
 
 @NgModule({

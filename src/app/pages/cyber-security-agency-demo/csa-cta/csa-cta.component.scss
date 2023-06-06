@@ -1,22 +1,26 @@
 .cta-area {
     background: #000000;
 }
+
 .cta-content {
     text-align: center;
-    
+
     .sub-title {
         display: block;
         font-weight: 500;
         margin-bottom: 15px;
         color: var(--whiteColor);
     }
+
     h2 {
         color: var(--whiteColor);
         margin-bottom: 15px;
         font-size: 50px;
     }
+
     .default-btn-two {
-        margin-top: 8px;
+        margin: 8px;
+
     }
 }
 
@@ -27,9 +31,11 @@
         .sub-title {
             margin-bottom: 12px;
         }
+
         h2 {
             font-size: 30px;
         }
+
         .default-btn-two {
             margin-top: 3px;
         }
@@ -47,6 +53,7 @@
         h2 {
             font-size: 37px;
         }
+
         .default-btn-two {
             margin-top: 5px;
         }

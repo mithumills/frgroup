@@ -167,17 +167,14 @@
 .partner-item img {
     width: 100%;
     opacity: 0.8;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
 }
 
 .partner-item:hover img {
     opacity: 1;
     transform: scale(1.05);
     filter: none;
+    filter: drop-shadow(1px 1px 1px #757575);
+
 
 }
 
@@ -190,7 +187,7 @@
 
 .partner-item {
     padding: 35px;
-    filter: brightness(20%) grayscale(100%);
+    filter: brightness(0) invert(1);
     overflow: hidden;
     transition: var(--transition)
         /* fallback colour. Make sure this is just one solid colour. */

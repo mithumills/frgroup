@@ -14,6 +14,7 @@
         top: 0;
     }
 }
+
 .cs-about-content {
     padding-left: 35px;
 
@@ -23,6 +24,7 @@
         margin-bottom: 12px;
         color: var(--primaryColor);
     }
+
     h2 {
         color: var(--whiteColor);
         margin-bottom: 15px;
@@ -45,9 +47,11 @@
             }
         }
     }
+
     p {
         color: #cacaca;
     }
+
     .cs-about-card {
         margin-top: 15px;
 
@@ -82,13 +86,14 @@
                 background: var(--gradientColor);
             }
         }
+
         h4 {
             font-size: 25px;
             position: relative;
             margin-bottom: 15px;
             padding-bottom: 10px;
             color: var(--whiteColor);
-            
+
             &::before {
                 background: rgba(47, 143, 232, 0.1);
                 position: absolute;
@@ -98,6 +103,7 @@
                 bottom: 0;
                 left: 0;
             }
+
             &::after {
                 background: var(--primaryColor);
                 position: absolute;
@@ -108,19 +114,25 @@
                 left: 0;
             }
         }
+
         &:hover {
             .icon {
+                color: var(--blackColor);
+
                 &::before {
                     opacity: 1;
                     visibility: visible;
                 }
+
             }
         }
     }
+
     .default-btn-two {
         margin-top: 30px;
     }
 }
+
 .cs-about-image {
     text-align: center;
 }
@@ -133,6 +145,7 @@
             width: 100%;
         }
     }
+
     .cs-about-content {
         padding-left: 0;
 
@@ -142,17 +155,21 @@
 
             span {
                 display: unset;
-    
+
                 &::before {
                     display: none;
                 }
             }
         }
+
         .cs-about-card {
             margin: {
                 top: 0;
                 bottom: 25px;
-            };
+            }
+
+            ;
+
             .icon {
                 background: #2c2c30;
                 margin-bottom: 18px;
@@ -161,14 +178,17 @@
                 height: 60px;
                 width: 60px;
             }
+
             h4 {
                 font-size: 20px;
             }
         }
+
         .default-btn-two {
             margin-top: 0;
         }
     }
+
     .cs-about-image {
         margin-bottom: 30px;
     }
@@ -186,6 +206,7 @@
             width: 100%;
         }
     }
+
     .cs-about-content {
         padding-left: 0;
 
@@ -193,11 +214,15 @@
             font-size: 37px;
             margin-bottom: 12px;
         }
+
         .cs-about-card {
             margin: {
                 top: 5px;
                 bottom: 25px;
-            };
+            }
+
+            ;
+
             .icon {
                 background: #2c2c30;
                 margin-bottom: 20px;
@@ -206,14 +231,17 @@
                 height: 75px;
                 width: 75px;
             }
+
             h4 {
                 font-size: 23px;
             }
         }
+
         .default-btn-two {
             margin-top: 0;
         }
     }
+
     .cs-about-image {
         margin-bottom: 30px;
     }
@@ -228,15 +256,17 @@
             width: 38%;
         }
     }
+
     .cs-about-content {
         padding-left: 0;
-    
+
         h2 {
             font-size: 40px;
         }
+
         .cs-about-card {
             margin-top: 15px;
-    
+
             .icon {
                 margin-bottom: 22px;
                 line-height: 75px;
@@ -244,10 +274,12 @@
                 height: 75px;
                 width: 75px;
             }
+
             h4 {
                 font-size: 22px;
             }
         }
+
         .default-btn-two {
             margin-top: 20px;
         }

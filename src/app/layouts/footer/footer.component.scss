@@ -90,16 +90,40 @@
 .single-footer-widget {
     margin-bottom: 30px;
 
+
     .logo {
         margin-bottom: 15px;
-        width: 250px;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+
+        img {
+            filter: brightness(100%);
+            transition: .1s;
+            height: 60px;
+            width: auto;
+
+        }
+
+        h2 {
+            display: inline-flex;
+            color: var(--primaryColor);
+            vertical-align: middle;
+            align-items: center;
+            text-align: center;
+            margin: 10% 0 0 0;
+        }
     }
 
 
     .social-links {
         list-style-type: none;
         padding-left: 0;
-
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 
         margin: {
             top: 15px;

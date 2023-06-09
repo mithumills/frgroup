@@ -169,11 +169,11 @@
     opacity: 0.8;
 }
 
-.partner-item:hover img {
+.partner-item:hover .borders {
     opacity: 1;
     transform: scale(1.05);
     filter: none;
-    filter: drop-shadow(1px 1px 1px #757575);
+    filter: drop-shadow(1px 1px 1px 1px #a7a5a5);
 
 
 }

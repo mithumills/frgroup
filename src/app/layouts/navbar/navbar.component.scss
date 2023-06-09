@@ -133,13 +133,24 @@
     }
 }
 
-.navbar-brand img {
-    filter: brightness(100%);
-    transition: .1s;
-    height: 60px;
-    width: auto;
+.navbar-brand {
+    h2 {
+        display: inline-flex;
+        color: var(--primaryColor);
+        vertical-align: middle;
+        margin: 5% 0 0 10%
+    }
 
-    margin-left: 5px;
+    img {
+        filter: brightness(100%);
+        transition: .1s;
+        height: 60px;
+        width: auto;
+
+        margin-left: 5px;
+
+
+    }
 }
 
 .sticky .navbar-brand img {

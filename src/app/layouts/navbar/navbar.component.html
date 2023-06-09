@@ -3,7 +3,9 @@
     [ngClass]="{'color-white': router.url === '/creative-agency' || router.url === '/it-agency' || router.url === '/studio-agency' || router.url === '/saas-startup' || router.url === '/cyber-security-agency', 'sticky': isSticky}">
     <div class="container">
         <a class="navbar-brand" routerLink="/">
-            <img src="assets/images/yellolong.png" alt="logo">
+            <span><img src="assets/images/FR_logo.png" alt="logo">
+                <h2> F&R Logistics</h2>
+            </span>
         </a>
 
         <button class="navbar-toggler" type="button" (click)="toggleClass()">
@@ -36,9 +38,10 @@
                 </li>
             </ul>
             <div class="others-options">
-                <button (click)="onClick('contact')" class="default-btn">
-                    Get Started
-                </button>
+                <a href="https://live.machship.com/" target="_blank"><button class="default-btn">
+                        Login
+                    </button></a>
+
             </div>
         </div>
 

@@ -1,9 +1,8 @@
 <div id="home" class="hero-banner">
     <div class="video-background">
-        <video muted loop autoplay oncanplay="this.muted=true">
-            <source src="assets/video/truck2.mp4" type="video/mp4">
+        <video onloadedmetadata="this.muted=true" autoplay loop preload="auto">
+            <source src="assets/video/truck2.mov">
         </video>
-
     </div>
     <div class="d-table">
         <div class="d-table-cell">
@@ -26,10 +25,3 @@
         </div>
     </div>
 </div>
-<script>
-    var video = document.getElementById("myVideo");
-    video.oncanplaythrough = function ()
-    {
-        video.muted = true;
-        video.play();
-    }</script>

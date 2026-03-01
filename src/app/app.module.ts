@@ -7,8 +7,6 @@ import { AlternateLandingComponent } from './pages/cyber-security-agency-demo/cy
 import { CsaCtaComponent } from './pages/cyber-security-agency-demo/csa-cta/csa-cta.component';
 import { CsaAboutComponent } from './pages/cyber-security-agency-demo/csa-about/csa-about.component';
 import { CsaFeaturesComponent } from './pages/cyber-security-agency-demo/csa-features/csa-features.component';
-import { CsaFeedbackComponent } from './pages/cyber-security-agency-demo/csa-feedback/csa-feedback.component';
-import { CsaFunfactsComponent } from './pages/cyber-security-agency-demo/csa-funfacts/csa-funfacts.component';
 import { CsaPartnerComponent } from './pages/cyber-security-agency-demo/csa-partner/csa-partner.component';
 import { CsaServicesComponent } from './pages/cyber-security-agency-demo/csa-services/csa-services.component';
 import { NavbarComponent } from './layouts/navbar/navbar.component';
@@ -28,8 +26,6 @@ import { NotFoundComponent } from './common/not-found/not-found.component';
     CsaCtaComponent,
     CsaAboutComponent,
     CsaFeaturesComponent,
-    CsaFeedbackComponent,
-    CsaFunfactsComponent,
     CsaPartnerComponent,
     CsaServicesComponent,
     NavbarComponent,

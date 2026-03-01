@@ -138,13 +138,15 @@
         display: inline-flex;
         color: var(--primaryColor);
         vertical-align: middle;
-        margin: 5% 0 0 10%
+        margin: 5% 0 0 10%;
+        font-weight: 550;
+        font-size: 55px;
     }
 
     img {
         filter: brightness(100%);
         transition: .1s;
-        height: 60px;
+        height: 65px;
         width: auto;
 
         margin-left: 5px;
